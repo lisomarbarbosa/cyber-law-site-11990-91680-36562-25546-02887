@@ -2,30 +2,41 @@ import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight, Star, Quote } from "lucide-react";
+import diegoSoaresImg from "@/assets/testimonials/dhyservice.jpeg";
+import diegoLimaImg from "@/assets/testimonials/lan-telecom.jpeg";
+import pauloHenriqueImg from "@/assets/testimonials/paulo-henrique.jpeg";
+import washingtonLimaImg from "@/assets/testimonials/washington-lima.jpeg";
 
 const Testimonials = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const testimonials = [
     {
-      name: "Maria Silva",
-      role: "CEO, TechStart Ltda",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&q=80",
-      text: "A consultoria em LGPD foi essencial para adequarmos nossa empresa. Profissionalismo impecável e resultados acima das expectativas.",
+      name: "Diego Soares",
+      role: "CEO, Dhyservice",
+      image: diegoSoaresImg,
+      text: "O suporte jurídico em Direito Digital foi essencial para proteger nossos contratos e dados estratégicos. Trouxe segurança e tranquilidade para a gestão da empresa.",
       rating: 5,
     },
     {
-      name: "Carlos Mendes",
-      role: "Diretor de TI, Digital Corp",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&q=80",
-      text: "Expertise incomparável em crimes digitais. Conseguimos resolver um caso complexo de invasão com total profissionalismo.",
+      name: "Diego Lima",
+      role: "Diretor, Lan Telecom",
+      image: diegoLimaImg,
+      text: "A consultoria garantiu que a Lan Telecom estivesse totalmente adequada à LGPD. O trabalho foi rápido, claro e nos trouxe confiança para expandir nossos serviços.",
       rating: 5,
     },
     {
-      name: "Ana Costa",
-      role: "Empreendedora Digital",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&q=80",
-      text: "Atendimento personalizado e soluções práticas. Recomendo fortemente para qualquer questão relacionada a Direito Digital.",
+      name: "Paulo Henrique",
+      role: "Servidor Público",
+      image: pauloHenriqueImg,
+      text: "Como servidor público, precisei de orientação sobre responsabilidade digital e encontrei um atendimento técnico, objetivo e comprometido. Foi fundamental para evitar problemas futuros.",
+      rating: 5,
+    },
+    {
+      name: "Washington Lima",
+      role: "Empreendedor Digital",
+      image: washingtonLimaImg,
+      text: "Consegui resolver uma situação de fraude digital que estava afetando meu negócio online. Profissionalismo e resultados que realmente fazem a diferença.",
       rating: 5,
     },
   ];
