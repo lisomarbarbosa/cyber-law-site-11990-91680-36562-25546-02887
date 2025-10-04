@@ -39,7 +39,7 @@ const InstagramHackeado = () => {
 
             <div className="relative h-96 rounded-2xl overflow-hidden mb-12 shadow-cyber">
               <img
-                src="https://images.unsplash.com/photo-1611605698335-8b1569810432?w=1200&auto=format&fit=crop&q=80"
+                src="https://images.unsplash.com/photo-1611262588024-d12430b98920?w=1200&auto=format&fit=crop&q=80"
                 alt="Instagram - Segurança de contas"
                 className="w-full h-full object-cover"
               />
