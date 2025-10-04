@@ -113,11 +113,6 @@ const Footer = () => {
                   </li>
                 ))}
               </ul>
-              <div className="mt-6 pt-6 border-t border-border/30">
-                <p className="text-xs text-foreground/60 leading-relaxed">
-                  OAB/PA 39534
-                </p>
-              </div>
             </div>
 
             {/* Contact Info */}
