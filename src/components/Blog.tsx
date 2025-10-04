@@ -29,7 +29,7 @@ const Blog = () => {
       date: "8 Jan 2025",
       readTime: "6 min",
       category: "Redes Sociais",
-      image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&auto=format&fit=crop&q=80",
+      image: "https://images.unsplash.com/photo-1611262588024-d12430b98920?w=800&auto=format&fit=crop&q=80",
       link: "/artigos/instagram-hackeado"
     },
     {
