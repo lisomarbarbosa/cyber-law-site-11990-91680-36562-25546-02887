@@ -50,7 +50,7 @@ const Header = () => {
             }}
             className="flex items-center space-x-3 group"
           >
-            <img src={logo} alt="Lisomar Barbosa Advocacia" className="h-24 w-auto transition-smooth group-hover:scale-105" />
+            <img src={logo} alt="Lisomar Barbosa Advocacia" className="h-24 lg:h-24 md:h-32 sm:h-32 w-auto transition-smooth group-hover:scale-105" />
           </a>
 
           {/* Desktop Navigation */}
@@ -90,7 +90,7 @@ const Header = () => {
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
           <div className="lg:hidden py-6 animate-fade-in">
-            <div className="flex flex-col space-y-4">
+            <div className="flex flex-col space-y-4 items-center">
               {navItems.map((item) => (
                 <a
                   key={item.label}
@@ -99,18 +99,18 @@ const Header = () => {
                     e.preventDefault();
                     scrollToSection(item.href);
                   }}
-                  className="text-base font-medium text-foreground/80 hover:text-primary transition-smooth px-2 py-1"
+                  className="text-base font-medium text-foreground/80 hover:text-primary transition-smooth px-2 py-1 text-center"
                 >
                   {item.label}
                 </a>
               ))}
-              <div className="flex items-center justify-between px-2 py-1">
+              <div className="flex items-center justify-center gap-4 px-2 py-1">
                 <span className="text-base font-medium text-foreground/80">Tema</span>
                 <ThemeToggle />
               </div>
               <Button
                 onClick={() => window.open("https://wa.me/5591980300890?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informações", "_blank")}
-                className="bg-gradient-accent text-background font-semibold shadow-cyber w-full"
+                className="bg-gradient-accent text-background font-semibold shadow-cyber w-full max-w-xs"
               >
                 Agende uma Consulta
               </Button>
