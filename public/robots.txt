@@ -16,4 +16,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://www.advlisomarbarbosa.com.br/sitemap.xml
+Sitemap: https://www.lisomarbarbosa.adv.br/sitemap.xml
