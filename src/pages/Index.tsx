@@ -11,7 +11,7 @@ import { Helmet } from "react-helmet";
 
 const Index = () => {
   return (
-    <> 
+    <>
       <Helmet>
         <title>Lisomar Barbosa | Direito Digital & Blockchain</title>
         <meta
