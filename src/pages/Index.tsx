@@ -23,14 +23,17 @@ const Index = () => {
           property="og:description"
           content="Advogado especializado em Direito Digital, LGPD, contratos tech e consultoria estratégica."
         />
-        <meta property="og:image" content="/og.jpg" />
+        <meta property="og:image" content="https://www.advlisomarbarbosa.com.br/og.jpg" />
         <meta property="og:url" content="https://www.advlisomarbarbosa.com.br" />
+        <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Lisomar Barbosa | Direito Digital & Blockchain" />
         <meta
           name="twitter:description"
           content="Advogado especializado em Direito Digital, LGPD, contratos tech e consultoria estratégica."
         />
+        <meta name="twitter:image" content="https://www.advlisomarbarbosa.com.br/og.jpg" />
+        <link rel="canonical" href="https://www.advlisomarbarbosa.com.br" />
       </Helmet>
       <div className="min-h-screen bg-background">
         <Header />
