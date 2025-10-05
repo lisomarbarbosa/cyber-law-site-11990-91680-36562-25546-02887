@@ -11,7 +11,6 @@ import { Helmet } from "react-helmet";
 
 const Index = () => {
   return (
-    // INÍCIO: Adicionado o Fragmento (<>) para envolver todos os elementos
     <> 
       <Helmet>
         <title>Lisomar Barbosa | Direito Digital & Blockchain</title>
@@ -46,7 +45,6 @@ const Index = () => {
         <Footer />
         <ScrollToTop />
       </div>
-    {/* FIM: Fechado o Fragmento (</>) */}
     </>
   );
 };
