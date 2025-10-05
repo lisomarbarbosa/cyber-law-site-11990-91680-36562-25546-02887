@@ -38,7 +38,7 @@ const App = () => (
             <Route path="/artigos/fake-news-difamacao" element={<FakeNewsDifamacao />} />
             <Route path="/artigos/compliance-lgpd" element={<ComplianceLGPD />} />
             <Route path="/artigos/regulamentacao-criptomoedas" element={<RegulamentacaoCriptomoedas />} />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+            {/* Rota padrão (404) */}
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
