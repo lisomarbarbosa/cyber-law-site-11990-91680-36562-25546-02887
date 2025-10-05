@@ -7,7 +7,7 @@ import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const Index = () => {
   return (
